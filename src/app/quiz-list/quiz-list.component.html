@@ -1,0 +1,23 @@
+<div class="row">
+  <h1 align="center" style="font-size: xx-large;font-style: normal;font-weight: bold;"> Quizzes </h1>
+  <div  *ngFor="let item of quizList; let i = index">
+    <mat-card class="example-card bg-secondary">
+        <div class="imgContent">
+          <div class="cardimg">
+            <img src="{{item.image}}" alt="qtqt" class="cimg">
+          </div>
+          <div class="cardContent">
+            <mat-card-title align="start">
+              <h2>{{item.name}}</h2>
+            </mat-card-title>
+            <mat-card-subtitle>
+              <h5>{{item.description}}</h5>
+            </mat-card-subtitle>
+          </div>
+          <div>
+            <button class="btn" [routerLink]="['/welcome',i]"><i class="fa text-dark fa-chevron-right fa-3x"></i></button>
+          </div>
+        </div>
+    </mat-card>
+  </div>
+</div>

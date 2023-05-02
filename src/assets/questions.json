@@ -1,0 +1,695 @@
+[
+  {"description":"Angular est un framework JavaScript populaire pour la construction d'applications web dynamiques",
+    "name":"Angular",
+    "image":"/assets/Angular.svg.png",
+          "questions": [{
+            "questionText": "Which of the following does TypeScript use to specify types?",
+            "options": [{
+                    "text": ":",
+                    "correct": true
+                },
+                {
+                    "text": ";"
+                },
+                {
+                    "text": "!"
+                },
+                {
+                    "text": "&"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "Which of the following is NOT a type used in TypeScript?",
+            "options": [{
+                    "text": "number"
+                },
+                {
+                    "text": "string"
+                },
+                {
+                    "text": "boolean"
+                },
+                {
+                    "text": "enum",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "How can we specify properties and methods for an object in TypeScript?",
+            "options": [{
+                    "text": "Use classes."
+                },
+                {
+                    "text": "Use interfaces.",
+                    "correct": true
+                },
+                {
+                    "text": "Use enums."
+                },
+                {
+                    "text": "Use async/await."
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "How else can Array<number> be written in TypeScript?",
+            "options": [{
+                    "text": "@number"
+                },
+                {
+                    "text": "number[]",
+                    "correct": true
+                },
+                {
+                    "text": "number!"
+                },
+                {
+                    "text": "number?"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "In which of these does a class take parameters?",
+            "options": [{
+                    "text": "constructor",
+                    "correct": true
+                },
+                {
+                    "text": "destructor"
+                },
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "subscribe"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "Which is NOT an access modifier?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Which keyword allows us to share information between files in TypeScript?",
+            "options": [{
+                    "text": "import"
+                },
+                {
+                    "text": "export",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "Which is an array method to generate a new array based on a condition?",
+            "options": [{
+                    "text": "filter",
+                    "correct": true
+                },
+                {
+                    "text": "map"
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "enum"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "How is a property accessible within a class?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+},
+{ "description":"Node.js est un environnement d'exécution JavaScript côté serveur. Il permet aux développeurs de créer des applications web et des services côté serveur avec JavaScript",
+  "name":"NodeJs",
+  "image":"/assets/Node.svg.png",
+          "questions": [{
+            "questionText": "Quel est le moteur de JavaScript utilisé par Node.js ?",
+            "options": [{
+                    "text": "V8",
+                    "correct": true
+                },
+                {
+                    "text": "SpiderMonkey"
+                },
+                {
+                    "text": "Chakra"
+                },
+                {
+                    "text": "Rhino"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour manipuler des fichiers ?",
+            "options": [{
+                    "text": "path"
+                },
+                {
+                    "text": "http"
+                },
+                {
+                    "text": "net"
+                },
+                {
+                    "text": "fs",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Quel est le nom de l'outil de ligne de commande utilisé pour installer des modules Node.js ?",
+            "options": [{
+                    "text": "npx"
+                },
+                {
+                    "text": "npm",
+                    "correct": true
+                },
+                {
+                    "text": "node"
+                },
+                {
+                    "text": "nvm"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour créer un serveur web ?",
+            "options": [{
+                    "text": "fs"
+                },
+                {
+                    "text": "http",
+                    "correct": true
+                },
+                {
+                    "text": "net"
+                },
+                {
+                    "text": "path"
+                }
+            ]
+        },
+        {
+            "questionText": "Quel est le format de données utilisé par défaut pour l'échange de données entre un serveur Node.js et un client ?",
+            "options": [{
+                    "text": "JSON",
+                    "correct": true
+                },
+                {
+                    "text": "XML"
+                },
+                {
+                    "text": "YAML"
+                },
+                {
+                    "text": "CSV"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour effectuer des requêtes HTTP ?",
+            "options": [{
+                    "text": "http"
+                },
+                {
+                    "text": "net"
+                },
+                {
+                    "text": "fs"
+                },
+                {
+                    "text": "request",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour gérer les sessions utilisateur ?",
+            "options": [{
+                    "text": "cookie"
+                },
+                {
+                    "text": "express",
+                    "correct": true
+                },
+                {
+                    "text": "passport"
+                },
+                {
+                    "text": "session"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour gérer les connexions à une base de données MongoDB ?",
+            "options": [{
+                    "text": "mongoose",
+                    "correct": true
+                },
+                {
+                    "text": "sequelize"
+                },
+                {
+                    "text": "knex"
+                },
+                {
+                    "text": "bookshelf"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour implémenter des sockets web en temps réel ?",
+            "options": [{
+                    "text": "socket.io",
+                    "correct": true
+                },
+                {
+                    "text": "engine.io"
+                },
+                {
+                    "text": "primus"
+                },
+                {
+                    "text": "ws"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment s'appelle le module Node.js utilisé pour gérer les tâches asynchrones en série ou en parallèle ?",
+            "options": [
+                {
+                    "text": "promise"
+                },
+                {
+                    "text": "bluebird"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                },
+                {
+                    "text": "q"
+                }
+            ]
+        }
+    ]
+},
+{ "description":"React est une bibliothèque Javascript front-end libre pour créer des interfaces utilisateur web et mobiles complexes, interactives et basées sur des composants.",
+  "name":"React",
+  "image":"/assets/React.svg.png",
+          "questions": [{
+            "questionText": "Que signifie le terme 'JSX' dans React ?",
+            "options": [{
+                    "text": "Java Style XML"
+                },
+                {
+                    "text": "JavaScript Extension"
+                },
+                {
+                    "text": "JavaScript XML",
+                    "correct": true
+                },
+                {
+                    "text": "Java Scripted XML"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment pouvez-vous créer un composant React ?",
+            "options": [{
+                    "text": "En utilisant la méthode 'React.createClass'"
+                },
+                {
+                    "text": "En utilisant la méthode 'React.create'"
+                },
+                {
+                    "text": "En utilisant la méthode 'React.Component'",
+                    "correct": true
+                },
+                {
+                    "text": "En utilisant la méthode 'React.newComponent'"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que Redux en relation avec React ?",
+            "options": [{
+                    "text": "Un framework pour créer des composants React"
+                },
+                {
+                    "text": "Une bibliothèque pour la gestion de l'état d'une application React",
+                    "correct": true
+                },
+                {
+                    "text": "Un outil pour le test de performance des composants React"
+                },
+                {
+                    "text": "Une méthode pour le rendu serveur de composants React"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la méthode 'setState' dans React ?",
+            "options": [{
+                    "text": "Une méthode pour définir l'état initial d'un composant"
+                },
+                {
+                    "text": "Une méthode pour modifier l'état d'un composant",
+                    "correct": true
+                },
+                {
+                    "text": "Une méthode pour lire l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour supprimer l'état d'un composant"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la 'prop drilling' en React ?",
+            "options": [{
+                    "text": "Une technique pour passer des propriétés de composant en composant",
+                    "correct": true
+                },
+                {
+                    "text": "Une technique pour réduire le nombre de propriétés passées aux composants"
+                },
+                {
+                    "text": "Une technique pour augmenter la profondeur des arbres de composants"
+                },
+                {
+                    "text": "Une technique pour empêcher les propriétés d'être passées aux composants enfants"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la méthode 'componentDidMount' dans React ?",
+            "options": [{
+                    "text": "Une méthode pour modifier l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour lire l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode appelée immédiatement après que le composant a été inséré dans le DOM",
+                    "correct": true
+                },
+                {
+                    "text": "Une méthode appelée immédiatement avant que le composant soit retiré du DOM"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment pouvez-vous créer un événement clic dans React ?",
+            "options": [{
+                    "text": "En utilisant la méthode 'onClick'",
+                    "correct": true
+                },
+                {
+                    "text": "En utilisant la méthode 'onMouseClick'"
+                },
+                {
+                    "text": "En utilisant la méthode 'onTouchClick'"
+                },
+                {
+                    "text": "En utilisant la méthode 'onKeyPress'"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la méthode 'render' dans React ?",
+            "options": [{
+                    "text": "Une méthode pour définir l'état initial d'un composant"
+                },
+                {
+                    "text": "Une méthode pour modifier l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour afficher le contenu d'un composant",
+                    "correct": true
+                },
+                {
+                    "text": "Une méthode pour cacher le contenu d'un composant"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la méthode 'shouldComponentUpdate' dans React ?",
+            "options": [{
+                    "text": "Une méthode pour modifier l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour lire l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour déterminer si un composant doit être mis à jour ou non",
+                    "correct": true
+                },
+                {
+                    "text": "Une méthode pour déterminer si un composant doit être supprimé ou non"
+                }
+            ]
+        },
+        {
+            "questionText": "Qu'est-ce que la méthode 'componentWillUnmount' dans React ?",
+            "options": [{
+                    "text": "Une méthode pour modifier l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode pour lire l'état d'un composant"
+                },
+                {
+                    "text": "Une méthode appelée immédiatement avant que le composant soit retiré du DOM",
+                    "correct": true
+                },
+                {
+                    "text": "Une méthode appelée immédiatement après que le composant a été inséré dans le DOM"
+                }
+            ]
+        }
+    ]
+},
+{ "description":"Next.js est un framework open source pour la création d'applications web côté serveur en utilisant React",
+  "name":"NextJs",
+  "image":"/assets/next-js.png",
+          "questions": [{
+            "questionText": "Qu'est-ce que Next.js ?",
+            "options": [{
+                    "text": "Une librairie pour gérer les animations en JavaScript"
+                },
+                {
+                    "text": "Un framework JavaScript pour construire des applications web côté client",
+                    "correct": true
+                },
+                {
+                    "text": "Une plateforme de développement backend pour Node.js"
+                },
+                {
+                    "text": "Un outil de gestion de bases de données en ligne"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment créer une nouvelle application Next.js ?",
+            "options": [{
+                    "text": "Utiliser l'outil create-next-app en ligne de commande",
+                    "correct": true
+                },
+                {
+                    "text": "Télécharger le code source sur le site officiel de Next.js"
+                },
+                {
+                    "text": "Utiliser un éditeur de code pour créer une application from scratch"
+                },
+                {
+                    "text": "Utiliser un générateur de projet en ligne"
+                }
+            ]
+        },
+        {
+            "questionText": "Quel est l'avantage principal de Next.js par rapport à un framework JavaScript traditionnel ?",
+            "options": [{
+                    "text": "La possibilité de faire du SSR (Server-Side Rendering) facilement",
+                    "correct": true
+                },
+                {
+                    "text": "L'utilisation d'une syntaxe plus simple et plus intuitive"
+                },
+                {
+                    "text": "La prise en charge des animations en CSS"
+                },
+                {
+                    "text": "La possibilité de créer des applications mobiles hybrides"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment faire une requête HTTP dans une application Next.js ?",
+            "options": [{
+                    "text": "En utilisant l'API Fetch intégrée dans le navigateur"
+                },
+                {
+                    "text": "En utilisant le module axios pour Node.js"
+                },
+                {
+                    "text": "En utilisant le hook useEffect de React"
+                },
+                {
+                    "text": "En utilisant le module fetch pour Node.js",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Comment faire du routage dans une application Next.js ?",
+            "options": [{
+                    "text": "En utilisant le module react-router-dom"
+                },
+                {
+                    "text": "En créant des fichiers avec des noms spécifiques dans le dossier 'pages'",
+                    "correct": true
+                },
+                {
+                    "text": "En utilisant le module next/router intégré dans Next.js"
+                },
+                {
+                    "text": "En utilisant des balises <a> pour créer des liens"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment gérer les données de manière globale dans une application Next.js ?",
+            "options": [{
+                    "text": "En utilisant le Context API de React",
+                    "correct": true
+                },
+                {
+                    "text": "En utilisant des variables globales"
+                },
+                {
+                    "text": "En passant les données de composant en composant avec les props"
+                },
+                {
+                    "text": "En utilisant un système de cache comme Redis"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment gérer l'état de l'application dans Next.js ?",
+            "options": [{
+                    "text": "En utilisant le hook useState de React"
+                },
+                {
+                    "text": "En utilisant le module redux"
+                },
+                {
+                    "text": "En utilisant les cookies pour stocker l'état"
+                },
+                {
+                    "text": "En créant des fonctions reducers avec useReducer de React",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Comment ajouter des données statiques à une page dans Next.js ?",
+            "options": [{
+                    "text": "En créant des variables globales dans un fichier dédié"
+                },
+                {
+                    "text": "En passant les données de composant en composant avec les props"
+                },
+                {
+                    "text": "En utilisant le module fs de Node.js"
+                },
+                {
+                    "text": "En créant des fichiers JSON dans un dossier 'data'",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Quel est le langage de programmation utilisé par Next.js ?",
+            "options": [{
+                    "text": "PHP"
+                },
+                {
+                    "text": "JavaScript",
+                    "correct": true
+                },
+                {
+                    "text": "Ruby"
+                },
+                {
+                    "text": "Python"
+                }
+            ]
+        },
+        {
+            "questionText": "Comment peut-on déployer une application Next.js ?",
+            "options": [{
+                    "text": "En utilisant un service de cloud computing comme AWS ou Google Cloud",
+                    "correct": true
+                },
+                {
+                    "text": "En envoyant les fichiers source à un hébergeur Web"
+                },
+                {
+                    "text": "En créant un compte sur la plateforme Next.js"
+                },
+                {
+                    "text": "En publiant les fichiers source sur un réseau social"
+                }
+            ]
+        }
+    ]
+}
+]
