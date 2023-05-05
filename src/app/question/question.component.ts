@@ -11,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class QuestionComponent implements OnInit {
 
   public name: string = "";
+  public imagePath: string = "";
   public quizName: string = "";
   public questionList: any = [];
   public currentQuestion: number = 0;
@@ -36,6 +37,7 @@ export class QuestionComponent implements OnInit {
         this.id = this.route.snapshot.paramMap.get('id');
         this.questionList = res[this.id].questions;
         this.quizName = res[this.id].name;
+        this.imagePath = res[this.id].image;
       })
   }
   nextQuestion() {
